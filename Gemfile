@@ -8,6 +8,7 @@ gem 'puma', '~> 4.1'
 gem 'sass-rails', '>= 6'
 gem 'active_model_serializers'
 gem 'bootsnap', '>= 1.4.2', require: false
+gem "devise"
 
 group :development, :test do
   gem 'pry-rails'
@@ -23,7 +24,7 @@ end
 
 group :test do
   gem 'rspec-rails'
-  gem "factory_bot"
+  gem "factory_bot_rails"
   gem 'ffaker'
 end
 
