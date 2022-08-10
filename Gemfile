@@ -13,6 +13,8 @@ gem "jwt", "~> 2.4"
 
 group :development, :test do
   gem 'pry-rails'
+  gem "factory_bot_rails"
+  gem 'ffaker'
 end
 
 group :development do  
@@ -25,8 +27,6 @@ end
 
 group :test do
   gem 'rspec-rails'
-  gem "factory_bot_rails"
-  gem 'ffaker'
   gem "shoulda-matchers"
 end
 
