@@ -9,6 +9,7 @@ gem 'sass-rails', '>= 6'
 gem 'active_model_serializers'
 gem 'bootsnap', '>= 1.4.2', require: false
 gem "devise"
+gem "jwt", "~> 2.4"
 
 group :development, :test do
   gem 'pry-rails'
@@ -30,3 +31,5 @@ group :test do
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+gem "jwt", "~> 2.4"
