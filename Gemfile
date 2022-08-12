@@ -26,6 +26,7 @@ group :development do
 end
 
 group :test do
+  gem "email_spec"
   gem 'rspec-rails'
   gem "shoulda-matchers"
 end
